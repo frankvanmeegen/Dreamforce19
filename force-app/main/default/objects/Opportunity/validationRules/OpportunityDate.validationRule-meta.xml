@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>OpportunityDate</fullName>
-    <active>false</active>
-    <description>Validates if opportunity date is valid</description>
-    <errorConditionFormula>CloseDate  &lt;=  TODAY()</errorConditionFormula>
-    <errorDisplayField>CloseDate</errorDisplayField>
-    <errorMessage>Please enter a valid close date</errorMessage>
-</ValidationRule>
