@@ -12,7 +12,7 @@ public class OpportunityUpsert_Test {
         Opportunity opp = new Opportunity(Name = 'WolfTech OPP01',
                                           StageName = 'Prospecting',
                                           AccountId = acc.Id,
-                                          CloseDate = Date.today()+365);
+                                          CloseDate = Date.today()+15);
         insert opp;
         
         //Act
@@ -20,7 +20,7 @@ public class OpportunityUpsert_Test {
         update opp;
         
         //Assert
-        Opportunity updatedOpp = [SELECT Id, Name, StageName, CloseDate, Account.Type 
+        Opportunity updatedOpp = [SELECT Id, CloseDate
                                   FROM Opportunity 
                                   WHERE Id = :opp.Id LIMIT 1];
         System.assertEquals(Date.today(), updatedOpp.CloseDate);
