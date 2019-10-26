@@ -1,5 +1,10 @@
 {
-  "orgName": "Demo Company",
-  "edition": "Developer",
-  "features": []
+  "orgName": "WolfTech",
+  "edition": "Enterprise",
+  "features": [],
+  "settings": {
+      "lightningExperienceSettings": {
+          "enableS1DesktopEnabled": true
+      }
+  }
 }
