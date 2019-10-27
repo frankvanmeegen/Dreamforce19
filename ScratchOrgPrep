@@ -1,3 +1,5 @@
+//Enable DevHub
+DF19DevHub
 //Create Scratch Org
 sfdx force:org:create -s -f config/project-scratch-def.json -a DF19SO03
 //Import Test Data
