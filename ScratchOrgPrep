@@ -1,6 +1,9 @@
-//Enable DevHub
-DF19DevHub
+//Checkout Preparation Repo
+//Connect DevHub DF19DevHub
 //Create Scratch Org
 sfdx force:org:create -s -f config/project-scratch-def.json -a DF19SO03
+//Connect Scratch Org
 //Import Test Data
 sfdx force:data:tree:import --plan data/sample-data-plan.json
+//Open Scratch Org
+sfdx force:org:open
