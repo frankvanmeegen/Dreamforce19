@@ -10,8 +10,11 @@ sfdx force:org:open
 
 Demo preparation
 - Query Salesforce Community
+https://help.salesforce.com/articleView?id=flow_distribute_deploy_active.htm&type=5&sfdcIFrameOrigin=null
 - Test Class
+https://github.com/frankvanmeegen/Dreamforce19/blob/master/AutomatedTestingForAdmins/force-app/main/default/classes/OpportunityUpsert_Test.cls
 - Validation rule code
+https://github.com/frankvanmeegen/Dreamforce19/blob/master/ValidationRule
 - Process Builder
 - Opportunity 01
 - Validation Rule
