@@ -1,0 +1,4 @@
+//Create Scratch Org
+sfdx force:org:create -s -f config/project-scratch-def.json -a DF19SO03
+//Import Test Data
+sfdx force:data:tree:import --plan data/sample-data-plan.json
