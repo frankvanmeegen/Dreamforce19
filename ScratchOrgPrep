@@ -7,3 +7,12 @@ sfdx force:org:create -s -f config/project-scratch-def.json -a DF19SO03
 sfdx force:data:tree:import --plan data/sample-data-plan.json
 //Open Scratch Org
 sfdx force:org:open
+
+Demo preparation
+- Query Salesforce Community
+- Test Class
+- Validation rule code
+- Process Builder
+- Opportunity 01
+- Validation Rule
+- Opportunity 02
