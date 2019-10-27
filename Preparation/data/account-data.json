@@ -1,0 +1,10 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "Eurofiber"
+      },
+      "name": "Eurofiber"}
+  ]
+}
