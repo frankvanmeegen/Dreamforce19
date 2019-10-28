@@ -11,6 +11,8 @@ sfdx force:data:tree:import --plan data/sample-data-plan.json
 sfdx force:org:open
 
 Demo preparation
+- Close teams
+- Login with gastvenster
 - Query Salesforce Community
 https://help.salesforce.com/articleView?id=flow_distribute_deploy_active.htm&type=5&sfdcIFrameOrigin=null
 - Test Class
