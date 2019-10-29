@@ -1,0 +1,8 @@
+SELECT Definition.DeveloperName
+FROM Flow
+WHERE Status = 'Active' 
+   AND (ProcessType = 'AutolaunchedFlow' 
+      OR ProcessType = 'Workflow' 
+      OR ProcessType = 'CustomEvent' 
+      OR ProcessType = 'InvocableProcess') 
+   AND Id NOT IN (SELECT FlowVersionId FROM FlowTestCoverage)

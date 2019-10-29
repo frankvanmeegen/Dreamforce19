@@ -1,0 +1,25 @@
+//Checkout Preparation Repo
+//Connect DevHub DF19DevHub
+//Create Scratch Org
+sfdx force:org:create -s -f config/project-scratch-def.json -a DF19SO03
+//Connect Scratch Org
+//Push source to scratch org
+sfdx force:source:push
+//Import Test Data
+sfdx force:data:tree:import --plan data/sample-data-plan.json
+//Open Scratch Org
+sfdx force:org:open
+
+Demo preparation
+- Close teams
+- Login with gastvenster
+- Query Salesforce Community
+https://help.salesforce.com/articleView?id=flow_distribute_deploy_active.htm&type=5&sfdcIFrameOrigin=null
+- Test Class
+https://github.com/frankvanmeegen/Dreamforce19/blob/master/AutomatedTestingForAdmins/force-app/main/default/classes/OpportunityUpsert_Test.cls
+- Validation rule code
+https://github.com/frankvanmeegen/Dreamforce19/blob/master/ValidationRule
+- Process Builder
+- Opportunity 01
+- Validation Rule
+- Opportunity 02
