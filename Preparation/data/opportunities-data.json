@@ -7,17 +7,17 @@
       },
       "Name": "Eurofiber OPP01",
       "StageName": "Prospecting",
-      "CloseDate": "2019-12-01T00:00:00.000+0000",
+      "CloseDate": "2020-01-01T00:00:00.000+0000",
       "AccountId": "@Eurofiber"
     },
-{
+    {
       "attributes": {
         "type": "Opportunity",
         "referenceId": "EFOPP02"
       },
       "Name": "Eurofiber OPP02",
       "StageName": "Prospecting",
-      "CloseDate": "2019-12-01T00:00:00.000+0000",
+      "CloseDate": "2020-01-01T00:00:00.000+0000",
       "AccountId": "@Eurofiber"
     }
   ]
